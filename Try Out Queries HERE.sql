@@ -1,0 +1,1 @@
+select max(sl),min(sl) from (select department,sum(salary) sl from employees group by department) a
